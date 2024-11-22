@@ -1,0 +1,5 @@
+- id: check-pyproject-incremented
+  name: check-pyproject-incremented
+  description: check !main branches increment pyproject.toml version
+  entry: python -m check_pyproject_incremented.main
+  language: python

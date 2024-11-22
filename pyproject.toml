@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "check-pyproject-incremented"
+version = "1.0.0"
+description = "a hook to check !main branches increment pyproject.toml's version"
+authors = ["atloo1 <15357562+atloo1@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+pre-commit = "^4.0.1"
+ruff = "^0.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+lint.extend-select = ["I"]  # sort imports
+
+[tool.ruff.format]
+quote-style = "single"
