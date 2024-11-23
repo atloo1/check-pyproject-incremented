@@ -38,6 +38,7 @@ cd check-pyproject-incremented/
 ### run
 
 ```
+poetry install --without dev
 poetry run python -m check_pyproject_incremented.main
 ```
 
