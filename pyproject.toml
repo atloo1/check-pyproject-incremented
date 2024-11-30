@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "check-pyproject-incremented"
-version = "1.0.1"
+version = "1.0.2"
 description = "a hook to check !main branches increment pyproject.toml's version"
 authors = ["atloo1 <15357562+atloo1@users.noreply.github.com>"]
 license = "MIT"
